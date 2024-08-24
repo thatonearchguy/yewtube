@@ -333,6 +333,7 @@ class _Config:
             ConfigItem("download_command", ''),
             ConfigItem("lookup_metadata", True),
             ConfigItem("lastfm_username", ''),
+            ConfigItem("pipe_direct_mpv", False),
             ConfigItem("lastfm_password", '', check_fn=check_lastfm_password),
             ConfigItem("lastfm_api_key", ''),
             ConfigItem("lastfm_api_secret", ''),
